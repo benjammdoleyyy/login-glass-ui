@@ -74,6 +74,9 @@ body {
   font-weight: bold;
   cursor: pointer;
   transition: 0.3s ease;
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
 }
 
 .btn-login {
@@ -100,7 +103,16 @@ body {
   text-align: center;
   margin-top: 15px;
   font-size: 13px;
+}
+
+.footer-text a {
   color: #ffffff80;
+  text-decoration: none;
+}
+
+.footer-text a:hover {
+  color: #ffffff;
+  text-decoration: underline;
 }
 
 @keyframes fadeIn {
@@ -112,4 +124,4 @@ body {
     opacity: 1;
     transform: scale(1);
   }
-}
+  }
