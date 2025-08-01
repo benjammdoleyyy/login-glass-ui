@@ -57,22 +57,43 @@ body {
   background: rgba(255, 255, 255, 0.2);
 }
 
-.btn-login {
-  width: 100%;
+.button-group {
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  margin-top: 10px;
+}
+
+.btn-login,
+.btn-register {
   padding: 12px;
-  background: linear-gradient(135deg, #1f85de, #00c6ff);
+  width: 100%;
   border: none;
   border-radius: 12px;
-  color: #fff;
   font-size: 16px;
   font-weight: bold;
   cursor: pointer;
   transition: 0.3s ease;
 }
 
+.btn-login {
+  background: linear-gradient(135deg, #1f85de, #00c6ff);
+  color: #fff;
+}
+
 .btn-login:hover {
   transform: translateY(-2px);
   box-shadow: 0 4px 14px rgba(0, 198, 255, 0.4);
+}
+
+.btn-register {
+  background: linear-gradient(135deg, #00ffb3, #1feea3);
+  color: #000;
+}
+
+.btn-register:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 14px rgba(0, 255, 179, 0.3);
 }
 
 .footer-text {
